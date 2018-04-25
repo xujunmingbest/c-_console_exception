@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (clr.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MyForm.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\DbgHelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\DbgHelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+MyForm.cpp(103): warning C4477: “sprintf_s”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“const PVOID”
+e:\c++\clr\clr\myform.cpp(239): warning C4793: “ApplicationCrashHandler”: 编译为本机的函数:
+  	托管代码中不支持内联本机程序集
+  MyForm.obj :托管的代码存在时 /DEBUG:FASTLINK 不受支持；正在重新启动与 /DEBUG:FULL 的链接
+  clr.vcxproj -> E:\c++\clr\Debug\c++控制台应用程序驳货异常.exe
+  clr.vcxproj -> E:\c++\clr\Debug\c++控制台应用程序驳货异常.pdb (Partial PDB)
